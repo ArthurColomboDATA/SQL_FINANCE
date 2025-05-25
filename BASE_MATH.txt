@@ -1,0 +1,77 @@
+--Dadas as seguintes tabelas:
+
+--Tabela de clientes (TbCliente), composta por: CD_CLIENTE, NM_CLIENTE
++------------+------------+
+| CD_CLIENTE | NM_CLIENTE |
++------------+------------+
+| 1          | João       |
++------------+------------+
+| 2          | Maria      |
++------------+------------+
+| 3          | José       |
++------------+------------+
+| 4          | Adilson    |
++------------+------------+
+| 5          | Cleber     |
++------------+------------+
+
+
+--Tabela de transações (TbTransacoes), composta por cliente: CD_CLIENTE, DT_TRANSACAO, CD_TRANSACAO (000 - CashBack, 110 - CashIn, 220 - CashOut), VR_TRANSACAO
++------------+--------------+--------------+--------------+
+| CD_CLIENTE | DT_TRANSACAO | CD_TRANSACAO | VR_TRANSACAO |
++------------+--------------+--------------+--------------+
+| 1          | 2021-08-28   | 000          | 020.00       |
++------------+--------------+--------------+--------------+
+| 1          | 2021-09-09   | 110          | 078.90       |
++------------+--------------+--------------+--------------+
+| 1          | 2021-09-17   | 220          | 058.00       |
++------------+--------------+--------------+--------------+
+| 1          | 2021-11-15   | 110          | 178.90       |
++------------+--------------+--------------+--------------+
+| 1          | 2021-12-24   | 220          | 110.37       |
++------------+--------------+--------------+--------------+
+| 5          | 2021-10-28   | 110          | 220.00       |
++------------+--------------+--------------+--------------+
+| 5          | 2021-11-07   | 110          | 380.00       |
++------------+--------------+--------------+--------------+
+| 5          | 2021-12-05   | 220          | 398.86       |
++------------+--------------+--------------+--------------+
+| 5          | 2021-12-14   | 220          | 033.90       |
++------------+--------------+--------------+--------------+
+| 5          | 2021-12-21   | 220          | 016.90       |
++------------+--------------+--------------+--------------+
+| 3          | 2021-10-05   | 110          | 720.90       |
++------------+--------------+--------------+--------------+
+| 3          | 2021-11-05   | 110          | 720.90       |
++------------+--------------+--------------+--------------+
+| 3          | 2021-12-05   | 110          | 720.90       |
++------------+--------------+--------------+--------------+
+| 4          | 2021-10-09   | 000          | 050.00       |
++------------+--------------+--------------+--------------+
+
+
+--Qual cliente teve o maior saldo médio no mês 11? 
+
+--Qual é o saldo de cada cliente?
+
+--Qual é o saldo médio de clientes que receberam CashBack?
+
+--Qual o ticket médio das quatro últimas movimentações dos usuários?
+
+--Qual é a proporção entre Cash In/Out mensal?
+
+--Qual a última transação de cada tipo para cada usuário?
+
+--Qual a última transação de cada tipo para cada usuário por mês?
+
+--Qual quatidade de usuários que movimentaram a conta?
+
+--Qual o balanço do final de 2021?
+
+--Quantos usuários que receberam CashBack continuaram interagindo com este banco?
+
+--Qual a primeira e a última movimentação dos usuários com saldo maior que R$100?
+
+--Qual o balanço das últimas quatro movimentações de cada usuário?
+
+--Qual o ticket médio das últimas quatro movimentações de cada usuário?
